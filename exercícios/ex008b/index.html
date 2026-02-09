@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatação</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Códico-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0: 
+        print(f'0 número {num} é PAR')
+    else:
+        print(f'0 número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+
+ <!--
+    blockquote: quando a citação esta sozinha, como um bloco separado
+    normalmente uma frase longa
+ 
+    q: quando a citação está no meio de uma frase, dentro de um texto normal.
+    pequena, rápida, encaixada.
+ 
+ -->
+
+    <H2>Citações</H2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Pedro Henrique Santo Pedro, no seu livro HTML e CSS:</p> <blockquote cite="https://www.google.com.br/books/edition/HTML_e_CSS/WNfzEAAAQBAJ?hl=pt-BR&gbpv=0">
+        Diz-se que a programação é uma ciência exata. No entanto, quando estava na faculdade, descobri que não há nada de muito exato nessa ciência, ainda mais quando  se está trabalhando pesado por semanas, meses e anos a fio em um único código que passou facilmente das dezenas de milhares de linhas.
+    </blockquote>
+
+ <!--
+    abbr tittle: serve para abreviações (siglas), para mostrar o significado.
+ 
+    dir (ltr or rtl): atributo para indicar a direção do texto.
+
+    bdo dir: força a direção do texto
+ -->
+    <h2>Abreviações</h2>
+
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+
+    <p><a href="../ex009/index.html" rel="next">Ir ao ex009</a></p>
+</body>
+</html>

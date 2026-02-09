@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de Responsividade</title>
+
+    <style>
+        body {
+            background-color: lightslategray;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+
+            margin: auto;
+            max-width: 800px;
+            min-width: 320px;
+        }
+
+        img {
+            width: 100%;
+            /* Tenta ocupar a largura total do pai */
+            max-width: 800px;
+            /* LIMITE: Ela não vai crescer além disso (ajuste o valor conforme sua imagem) */
+            margin: auto;
+            /* Centraliza a imagem se ela for menor que o main */
+        }
+    
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolor
+            vitae numquam asperiores tenetur porro reprehenderit aliquam, doloremque
+            saepe? Facilis asperiores nisi voluptatibus quod delectus et sit nostrum
+            deleniti amet! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo reprehenderit, modi vel quam molestiae harum dignissimos excepturi,
+            ratione praesentium esse eligendi. Molestiae architecto cumque assumenda
+            excepturi tempore! Dignissimos, odit magnam? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Sint ullam dignissimos eaque in unde rerum
+            asperiores odio magnam, id reprehenderit laudantium? Eveniet dolorem
+            nemo cum neque odio enim numquam omnis?
+        </p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="assets/imagens/irina-blok-pq.jpg" />
+            <img src="assets/imagens/irina-blok.jpg" alt="irina-blok" />
+        </picture>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+            pariatur itaque suscipit laboriosam quisquam saepe corporis temporibus
+            soluta. Voluptate pariatur maxime hic officia quo nobis deleniti nam
+            animi est numquam.
+        </p>
+    </main>
+</body>
+
+</html>

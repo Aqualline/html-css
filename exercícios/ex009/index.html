@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+
+    <!-- LINK  CORRETO PARA O CSS ATUALIZADO -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> 
+        
+ <!-- types: 1 a A i I -->
+
+        <li>Acordar</li>
+        <li>Verificar um Email</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar roupa</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Tomar banho</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="circle"> <!--types: disc circle square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Café</li>
+        <li>Arroz</li>
+        <li>Salgadinho</li>
+        <li>Banana</li>
+    </ul>
+
+    <!-- usando a tag que deseja e logo após * seguido da quantidade que desejar, você pode criar varias tags de uma só vez -->
+
+    <!-- apertando Crtl + Enter você vai diretamente para a próxima linha -->
+
+    <h2>Juntando Listas v1.0</h2>
+
+    <!-- 
+    UL= LISTA COM BOLINHAS
+    OL= LISTA NUMERADA
+
+    OL ( LISTAS ORDENADAS )
+     - Sempre muda no HTML usando type="".
+
+     - Ex: type="1", type="a", type="i".
+
+    UL ( NÃO ORDENADAS )
+     - Sempre muda no CSS, usando list-style-type:.
+
+     - Ex: disc, circle, square.
+
+    -->
+
+    <h3>Linguagens favoritas - Lista de: Gustavo Guanabara</h3>
+
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+        
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+
+        </ol>
+    </ol>
+
+    <h2>Jogos</h2>
+    <ol>
+        <li>NE2</li>
+        <ul class="lista-jogos">
+            <li>Mario</li>
+            <li>Ninja Gaiden</li>
+
+        </ul>
+        <li>SNES</li>
+        <ul class="lista-jogos">
+            <li>Mario</li>
+            <ul class="lista-jogos2">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Donkey Kong</li>
+        </ul>
+        <LI>PlayStation</LI>
+        <ul class="lista-jogos">
+            <li>Final Fantasy</li>
+            <ul class="lista-jogos2">
+                <li>Final Fantasy 2</li>
+                <li>Final Fantasy 3</li>
+            </ul>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+
+   <!--
+    DL: Definion List 
+    - É o conteiner, a lista em si.
+   
+    DT: Definition Term
+    - É o termo, o nome da coisa.
+
+    DD: Definition Description
+    - É a explicação do termo
+
+    Quando usar:
+    - uma lista de perguntas e respostas
+    - uma lista de termos e definições
+    - uma lista tipo glossário
+    - pares de "nome: descrição"
+   -->
+
+    <h2>Lista de Deinições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <h3>Exemplo</h3>
+        <dt>HTML</dt>
+        <DD>Linguagem de marcação para a criação do conteúdo de um site.</DD>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+    <p><a href="../ex10/index.html" rel="next">Ir ao ex010 index</a></p>
+    <p><a href="../ex10/pag002.html" rel="next">Ir ao ex010 pag002</a></p>
+    <p><a href="../ex10/noticias/pag003.html" rel="next">Ir ao ex010 pag003</a></p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        a{
+            color: rgb(37, 0, 247);
+            font-weight: 700;
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(0, 0, 90);
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(240, 0, 240);
+        }
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            color: rgb(165, 165, 165);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Aqualline" target="_blank" rel="noopener noreferrer">Repositório do GitHub</a></li>
+        <li><a href="https://www.youtube.com/@Aqualline" target="_blank" rel="noopener noreferrer">Canal do Youtube</a></li>
+        <li><a href="https://www.roblox.com/pt/users/1237835511/profile" target="_blank" rel="noopener noreferrer">Perfil do Roblox</a></li>
+    </ul>
+</body>
+</html>

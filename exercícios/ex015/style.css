@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+            font-size: 16px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            color: hsl(226, 65%, 22%);
+            background-color: hsl(220, 100%, 92%);
+            text-align: center;
+        }
+
+        p {
+            color: rgb(209, 255, 209);
+            text-align: center;
+            background-color: #1a2c66;
+        }
+
+        .link {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
