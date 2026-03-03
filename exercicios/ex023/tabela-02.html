@@ -25,6 +25,7 @@
             border-collapse: collapse;
             margin: auto;
             margin-bottom: 50px;
+            position: relative;
         }
 
         td, th {
@@ -32,8 +33,18 @@
             padding: 10px;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #474749;
+        }
+
         tbody {
             background: #F8F9FA;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(227, 227, 228);
         }
 
         thead, tfoot {
