@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* ESTILOS PARA IMPRESSORAS */
+
+* {
+    margin: 10PX;
+    padding: 10PX;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5EM;
+    line-height: 1.5EM;
+}
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'Este arquivo foi impresso através do site www.(exemplo).com';
+}
+
+article {
+    width: 100%;
+}
