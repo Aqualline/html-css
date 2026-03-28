@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <!-- ICONES -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nulla officia ipsam rem assumenda, temporibus reprehenderit ex libero minus odit consequatur impedit, alias debitis aliquid cum dolorem harum sequi rerum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dolor, maxime quisquam, veritatis esse aperiam beatae expedita fugiat repellendus ex quo voluptates rerum blanditiis laboriosam. Vitae nam iste dicta perferendis.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor et aperiam quam, tempore sapiente assumenda amet minima aspernatur neque id? Sed quas voluptatum suscipit temporibus repellat animi eius praesentium.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempora molestias, minus aperiam a ab nihil molestiae sit saepe animi, pariatur laudantium quam facilis! Unde quisquam veniam consequatur. Deserunt, officia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolores quas harum eaque placeat pariatur dolor possimus aliquid rerum doloribus. Recusandae est dolor repudiandae vitae beatae deserunt amet commodi perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eum ab fugiat dolorum ex, provident eius illum? Provident tenetur cum vitae fugiat! Amet laboriosam voluptatibus, repudiandae ducimus saepe nostrum sed!</p>
+            
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display == 'block') {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
