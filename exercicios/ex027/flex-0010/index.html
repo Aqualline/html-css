@@ -7,12 +7,18 @@
     <style>
         .container {
             background: lightseagreen;
+
             display: flex;
+            flex-flow: row nowrap;
         }
+
         .item {
             background: lightskyblue;
             border: 1px solid rgb(35, 35, 133);
             text-align: center;
+            flex-basis: 200px;
+            flex-shrink: 1;
+            flex-grow: 1;
         }
     </style>
 </head>
@@ -21,10 +27,6 @@
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
     </div>
 </body>
 </html>
