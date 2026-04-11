@@ -47,6 +47,7 @@ h2 {
     font-size: 2.3em;
     font-weight: 500;
     padding-bottom: 15px;
+    padding-top: 50px;
     width: 55vw;
 }
 
@@ -58,8 +59,25 @@ p {
 }
 
 a {
-    color: #878C94;
+    color: #9a9fa7;
     text-decoration: none;
     padding: 10px;
     font-size: .9em;
+    background-color: rgb(20, 20, 20);
+    margin: 5px;
+}
+
+@media (max-width: 550px) {
+    header, header > nav {
+        flex-flow: column nowrap;
+    }
+    header > h1 {
+        flex-basis: 50px;
+    }
+    a {
+        width: 90vw;
+        text-align: center;
+        background-color: rgb(20, 20, 20);
+        margin: 5px;
+    }
 }
